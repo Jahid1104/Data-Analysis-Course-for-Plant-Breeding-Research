@@ -14,7 +14,7 @@ install.packages("ggplot2")
 library(ggplot2)
 
 #modify the name of x and y axis as required 
-crop=ggplot(data=data1, mapping=aes(x=Gen, y=weight))+geom_boxplot()
+crop = ggplot(data = data1, mapping = aes(x=Gen, y=weight))+ geom_boxplot()
 crop
 
 
@@ -22,7 +22,7 @@ crop
 # add mean to ggplot2 boxplot, legend position
 ggplot(data1, aes(x = Gen, y = weight, fill = Gen)) +
   geom_boxplot() + theme(legend.position = "top") +
-  stat_summary(fun = "mean", geom = "point", shape = 8,
-               size = 2, color = "red")
+  stat_summary(fun = "mean", geom = "point", shape = 1,
+               size = 2, color = "black")
 
 

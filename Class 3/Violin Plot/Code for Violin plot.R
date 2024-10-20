@@ -25,5 +25,5 @@ ggplot( aes(x=Gen, y=weight, fill=Gen)) +
     legend.position="top",
     plot.title = element_text(size=11)
   ) +
-  ggtitle(" ") +
-  xlab("")
+  ggtitle("ygvjhdbjkdhxdjnqwiodj") +
+  xlab("huisdhcjcfojcp")
